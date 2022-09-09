@@ -39,14 +39,9 @@ def get_wether(city):
 
     result['text']=format_response(wether)
     icon_name=wether['weather'][0]['icon']
-    # open_image(icon_name)
+    
 
-# def open_image(icon):
-#     size=int(frame_two.winfo_height()*0.25)
-#     img=ImageTk.PhotoImage(Image.open('./image'+icon.png).resize((size,size)))
-#     wether_icon.delete('all')
-#     wether_icon.create_image(0,0,anchor='nw',image=img)
-#     wether_icon.image=img
+
 
 
 
